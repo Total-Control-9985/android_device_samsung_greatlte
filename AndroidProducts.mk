@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_greatlte.mk
+    $(LOCAL_DIR)/havoc_greatlte.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_greatlte-user \
+    havoc_greatlte-userdebug \
+    havoc_greatlte-eng \
